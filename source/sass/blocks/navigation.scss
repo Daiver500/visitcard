@@ -11,7 +11,7 @@
 .navigation__inner {
   display: flex;
   justify-content: space-between;
-  max-width: 1500px;
+  max-width: 1440px;
 }
 
 .navigation__logo-svg-mobile {
@@ -20,6 +20,7 @@
 
 .navigation__logo-wrapper {
   display: flex;
+  color: $orange;
 }
 
 .navigation__text-main {
@@ -51,9 +52,8 @@
 .navigation__contacts {
   display: grid;
   align-items: center;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding-right: 70px;
-  grid-gap: 39px;
+  grid-template-columns: 1fr min-content 1fr;
+  grid-gap: 70px;
 }
 
 .navigation__link {
@@ -63,18 +63,18 @@
 }
 
 .navigation__link-mail {
-  max-width: 96px;
+  max-width: 211px;
 }
 
 .navigation__link-tel {
-  max-width: 184px;
+  width: 160px;
 }
 
 .navigation__link-mail:hover,
 .navigation__link-tel:hover,
 .navigation__link-mail:focus,
 .navigation__link-tel:focus {
-  color: $blue;
+  color: $orange;
 }
 
 .navigation__button {

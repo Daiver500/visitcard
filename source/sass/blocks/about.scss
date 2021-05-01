@@ -6,6 +6,7 @@
   display: flex;
   max-width: 1316px;
   position: relative;
+  grid-gap: 50px;
 }
 
 .about__inner::before {
@@ -20,7 +21,7 @@
 }
 
 .about__information {
-  max-width: 985px;
+  max-width: 785px;
 }
 
 .about__information h2,
@@ -54,8 +55,8 @@
   font-size: 14px;
   line-height: 16px;
   font-weight: 700;
-  border: 1px solid $blue;
-  color: $blue;
+  border: 1px solid $orange;
+  color: $orange;
   background-color: inherit;
   border-radius: 10px;
   cursor: pointer;
@@ -68,8 +69,12 @@
 }
 
 .about__image {
-  width: 213px;
+  //max-width: 350px;
   height: 317px;
+}
+
+.about__image-wrapper {
+  align-self: center;
 }
 
 @media (max-width: $max-tablet-width) {

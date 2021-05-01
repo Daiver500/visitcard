@@ -1,7 +1,7 @@
 .information__inner {
   display: flex;
   justify-content: space-around;
-  max-width: 1520px;
+  max-width: 1440px;
   position: relative;
   padding-right: 0;
   padding-bottom: 97px;
@@ -52,8 +52,8 @@
 }
 
 .information__image {
-  width: 705px;
-  height: 515px;
+  width: 381px;
+  height: 500px;
 }
 
 .information__image-wrapper {
@@ -93,7 +93,7 @@
   font-size: 16px;
   line-height: 19px;
   padding: 17px 28px;
-  background-color: $blue;
+  background-color: $orange;
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -125,7 +125,7 @@
 
 .information__scroll:hover,
 .information__scroll:focus {
-  color: $blue;
+  color: $orange;
 }
 
 .information__button-text-mobile {
