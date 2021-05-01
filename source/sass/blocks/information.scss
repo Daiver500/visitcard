@@ -15,6 +15,12 @@
   padding-top: 55px;
 }
 
+.information__link {
+  color: $orange;
+  font-style: italic;
+  animation: change 1300ms infinite;
+}
+
 .information__header,
 .information__text {
   margin-top: 0;
@@ -84,6 +90,7 @@
   height: 379px;
   background-image: url("../img/information-polygon-small.svg");
 }
+
 
 .information__button {
   font-family: "Roboto Condensed", "Arial", sans-serif;
@@ -256,3 +263,21 @@
     display: block;
   }
 }
+
+@keyframes change {
+  0% {
+    color: $orange;
+    shadow: 0 0 3px $orange;
+  }
+
+  50% {
+    color: $light-orange;
+    shadow: 0 0 10px $light-orange;
+  }
+
+  100% {
+    color: $dark-orange;
+    shadow: 0 0 3px $dark-orange;
+  }
+}
+
