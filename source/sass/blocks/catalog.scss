@@ -3,48 +3,45 @@
 }
 
 .catalog__inner {
-  max-width: 1250px;
+  max-width: 1740px;
   padding-top: 88px;
   padding-bottom: 109px;
 }
 
 .catalog__title {
   margin-top: 0;
-  margin-bottom: 53px;
+  margin-bottom: 20px;
   font-family: "Roboto Condensed", "Arial", sans-serif;
   font-size: 36px;
   line-height: 51px;
   color: $white;
 }
 
+.catalog__info {
+  font-size: 16px;
+  line-height: 22px;
+  color: $white;
+  margin-bottom: 40px;
+  margin-top: 0;
+  //margin-bottom: auto;
+}
+
 .catalog__list {
   list-style: none;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   padding-left: 0;
   grid-gap: 30px;
-  max-width: 1170px;
+  max-width: 1740px;
 }
 
 .catalog__item {
-  max-height: 620px;
+  max-height: 544px;
+  max-width: 868px;
   position: relative;
 }
 
-.catalog__item::after {
-  content: "";
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 63px;
-  height: 63px;
-  background-image: url("../img/corner.png");
-  background-repeat: no-repeat;
-  cursor: pointer;
-}
-
 .catalog__item img {
-  opacity: 0.2;
   height: 100%;
 }
 
@@ -55,17 +52,21 @@
 
 .catalog__text {
   position: absolute;
-  top: 49px;
-  left: 47px;
+  bottom: 0;
+  right: 0;
   color: $white;
 }
 
 .catalog__link span {
-  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-family: "Roboto Condensed" "Arial" sans-serif;
   font-size: 20px;
   line-height: 30px;
-  max-width: 160px;
+  width: 200px;
+  max-height: 90px;
+  text-align: center;
+  background-color: orange;
 }
+
 
 @media (max-width: $max-tablet-width) {
   .catalog__inner {

@@ -182,13 +182,14 @@
 
 .copyright__list {
   display: grid;
-  grid-template-columns: 150px 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   list-style: none;
   margin-top: 10px;
   margin-bottom: 14px;
   position: relative;
   padding-left: 5%;
   padding-right: 5%;
+  max-width: 1640px;
 }
 
 .copyright__item {
