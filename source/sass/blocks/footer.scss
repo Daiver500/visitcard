@@ -33,7 +33,7 @@
 .social__list {
   list-style: none;
   display: grid;
-  grid-template-columns: 27px 27px 27px;
+  grid-template-columns: 27px 27px;
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
@@ -339,12 +339,12 @@
     flex-direction: column;
     margin-bottom: 25px;
     overflow: hidden;
-    padding: 47px 12px 24px;
+    padding: 35px 12px 24px;
   }
 
   .footer__social {
     flex-direction: column;
-    margin-bottom: 73px;
+    margin-bottom: 50px;
     align-items: center;
   }
 
@@ -353,15 +353,15 @@
   }
 
   .footer__logowrapper {
-    margin-bottom: 18px;
+    margin-bottom: 5px;
   }
 
   .social__date {
-    margin-bottom: 42px;
+    margin-bottom: 25px;
   }
 
   .footer::before {
-    top: 259px;
+    top: 202px;
   }
 
   .footer::after {
