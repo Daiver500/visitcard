@@ -19,6 +19,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   padding-top: 59px;
   padding-bottom: 65px;
+  max-width: 700px;
 }
 
 .footer__social {
@@ -39,8 +40,8 @@
   grid-gap: 15px;
   max-height: 27px;
   position: relative;
-  left: -43px;
-  top: 2px;
+  left: 41px;
+  top: -14px;
 }
 
 .social__link svg {
@@ -187,7 +188,7 @@
   margin-bottom: 14px;
   position: relative;
   padding-left: 5%;
-  padding-right: 9%;
+  padding-right: 5%;
 }
 
 .copyright__item {
