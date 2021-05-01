@@ -64,7 +64,7 @@
 
 .about__information a:hover,
 .about__information a:focus {
-  background-color: $blue;
+  background-color: $light-orange;
   color: $white;
 }
 
@@ -107,24 +107,7 @@
   }
 
   .about__text--desktop {
-    display: none;
-  }
-
-  .about__text--tablet {
-    display: block;
-  }
-
-  .about__text--tablet1,
-  .about__text--tablet2 {
     max-width: 528px;
-  }
-
-  .about__text--tablet1 {
-    margin-bottom: 20px;
-  }
-
-  .about__text--tablet2 {
-    margin-bottom: 29px;
   }
 
   .about__information a {

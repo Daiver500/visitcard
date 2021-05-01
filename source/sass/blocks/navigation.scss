@@ -119,9 +119,9 @@
 .navigation__link-mail::before {
   content: "";
   left: -40px;
-  top: 3px;
+  top: 2px;
   width: 24px;
-  height: 27px;
+  height: 24px;
   background-image: url("../img/email.svg");
 }
 
@@ -133,6 +133,11 @@
   .navigation {
     padding-top: 20px;
     padding-bottom: 0;
+  }
+
+
+  .navigation__inner {
+    justify-content: space-between;
   }
 
   .navigation__contacts {

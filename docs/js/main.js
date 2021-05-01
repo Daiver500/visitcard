@@ -268,7 +268,7 @@
 
   const checkbox = document.querySelector(".form__main-checkbox");
   const label = document.querySelector(".form__main-checkbox-label");
-  const modalCheckbox = document.querySelector(".modal__checkbox-text");
+  const modalCheckbox = document.querySelector(".modal__checkbox");
   const modalLabel  = document.querySelector(".modal__checkbox-label");
 
   const checkboxClicker = () => {

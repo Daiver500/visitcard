@@ -133,7 +133,7 @@
 .form__main-data button:hover,
 .form__main-data button:focus {
   background-color: $white;
-  color: $blue;
+  color: $orange;
 }
 
 .form__main-lowerpart {
@@ -363,5 +363,6 @@
 
   .form__main-checkbox-label {
     padding-left: 19px;
+    max-width: 767px;
   }
 }
