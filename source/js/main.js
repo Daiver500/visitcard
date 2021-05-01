@@ -274,11 +274,11 @@
   const checkboxClicker = () => {
   checkbox.addEventListener("click", function () {
     label.classList.toggle("checkbox-toggle");
-  });
+    });
   modalCheckbox.addEventListener("click", function () {
     modalLabel.classList.toggle("checkbox-toggle");
-  });
- };
+    });
+  };
   checkboxClicker();
 
 })();

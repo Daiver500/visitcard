@@ -3,7 +3,7 @@
   "private": true,
   "description": "print",
   "devDependencies": {
-    "@htmlacademy/editorconfig-cli": "1.0.0",
+    "@htmlacademy/editorconfig-cli": "^1.0.0",
     "autoprefixer": "9.8.4",
     "browser-sync": "2.26.10",
     "del": "^5.1.0",
