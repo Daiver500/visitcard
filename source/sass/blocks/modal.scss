@@ -176,13 +176,6 @@
 }
 
 @media (max-width: $max-tablet-width) {
-  /*.modal,
-  .modal__inner,
-  .modal-success,
-  .modal-sucess__inner {
-    display: none;
-  }*/
-
   .modal__inner,
   .modal-success__inner {
     width: 100%;
