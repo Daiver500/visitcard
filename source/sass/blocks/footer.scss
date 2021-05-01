@@ -222,6 +222,11 @@
   display: none;
 }
 
+.map__button,
+.contacts__button {
+  display: none;
+}
+
 @media (max-width: $max-tablet-width) {
   .footer::before {
     content: "";
@@ -417,6 +422,7 @@
   .contacts__button {
     border: none;
     background-color: inherit;
+    display: block;
   }
 
   .lists__hidden {
