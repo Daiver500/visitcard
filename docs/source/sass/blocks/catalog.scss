@@ -1,0 +1,144 @@
+.catalog {
+  background-color: $light-black;
+}
+
+.catalog__inner {
+  max-width: 1250px;
+  padding-top: 88px;
+  padding-bottom: 109px;
+}
+
+.catalog__title {
+  margin-top: 0;
+  margin-bottom: 53px;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 51px;
+  color: $white;
+}
+
+.catalog__list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 0;
+  grid-gap: 30px;
+  max-width: 1170px;
+}
+
+.catalog__item {
+  max-height: 620px;
+  position: relative;
+}
+
+.catalog__item::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 63px;
+  height: 63px;
+  background-image: url("../img/corner.png");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.catalog__item img {
+  opacity: 0.2;
+  height: 100%;
+}
+
+.catalog__item:hover,
+.catalog__item:focus {
+  opacity: 0.6;
+}
+
+.catalog__text {
+  position: absolute;
+  top: 49px;
+  left: 47px;
+  color: $white;
+}
+
+.catalog__link span {
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 160px;
+}
+
+@media (max-width: $max-tablet-width) {
+  .catalog__inner {
+    padding: 50px 21px 62px 27px;
+  }
+
+  .catalog__list {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 46px;
+  }
+
+  .catalog__item {
+    max-height: 256px;
+    min-width: 720px;
+  }
+
+  .catalog__item img {
+    object-fit: cover;
+  }
+
+  .catalog__title {
+    font-size: 32px;
+    line-height: 45px;
+    //max-width: 625px;
+    text-align: left;
+    margin-bottom: 49px;
+    padding-left: 0;
+    padding-right: 13%;
+  }
+
+  .catalog__text {
+    top: 40px;
+  }
+
+  .catalog__item:last-child .catalog__text {
+    top: 48px;
+  }
+}
+
+@media (max-width: $max-mobile-width) {
+  .catalog__inner {
+    padding: 50px 10px 48px;
+  }
+
+  .catalog__title {
+    font-size: 28px;
+    line-height: 39px;
+    margin-bottom: 42px;
+    padding-left: 3%;
+    padding-right: 2%;
+  }
+
+  .catalog__wrapper {
+    padding-left: 4px;
+    padding-right: 7px;
+  }
+
+  .catalog__list {
+    grid-gap: 30px;
+  }
+
+  .catalog__item {
+    max-height: 256px;
+    min-width: 283px;
+  }
+
+  .catalog__text {
+    top: 20px;
+    left: 32px;
+  }
+
+  .catalog__item:last-child .catalog__text {
+    top: 31px;
+  }
+}
