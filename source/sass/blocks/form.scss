@@ -80,10 +80,21 @@
 }
 
 .form__main-data input:hover,
-.form__main-data textarea:hover {
+.form__main-data textarea:hover,
+.form__main-data input:focus,
+.form__main-data textarea:focus {
   border: 1px solid black;
 }
 
+.form__main-data input:hover,
+.form__main-data input:focus {
+  max-height: 50px;
+}
+
+.form__main-data textarea:hover,
+.form__main-data textarea:focus {
+  max-height: 158px;
+}
 
 .form__main-data input::placeholder,
 .form__main-data textarea::placeholder {
@@ -340,5 +351,9 @@
   .form__main-checkbox-label {
     padding-left: 19px;
     max-width: 767px;
+  }
+
+  .form__main-data textarea:hover {
+    max-height: 104px;
   }
 }

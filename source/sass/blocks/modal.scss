@@ -175,6 +175,16 @@
   border: 1px solid $black;
 }
 
+.modal input:hover,
+.modal input:focus {
+  max-height: 50px;
+}
+
+.modal textarea:hover,
+.modal textarea:focus {
+  max-height: 142px;
+}
+
 @media (max-width: $max-tablet-width) {
   .modal__inner,
   .modal-success__inner {
