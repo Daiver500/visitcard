@@ -21,6 +21,10 @@
 .navigation__logo-wrapper {
   display: flex;
   color: $orange;
+  animation-name: animation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .navigation__text-main {
@@ -205,5 +209,15 @@
   .navigation__logo svg {
     width: 38px;
     height: 38px;
+  }
+}
+
+@keyframes animation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
   }
 }

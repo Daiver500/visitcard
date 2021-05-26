@@ -18,7 +18,7 @@
 .information__link {
   color: $orange;
   font-style: italic;
-  animation: change 1300ms infinite;
+  animation: change 2.2s linear infinite;
 }
 
 .information__header,
@@ -265,18 +265,8 @@
 }
 
 @keyframes change {
-  0% {
-    color: $orange;
-    shadow: 0 0 3px $orange;
-  }
-
   50% {
-    color: $light-orange;
-    shadow: 0 0 10px $light-orange;
-  }
-
-  100% {
-    color: $dark-orange;
-    shadow: 0 0 3px $dark-orange;
+    color: $orange;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.3), 0 0 5px #f03000, 0 0 8px #f80000;
   }
 }
