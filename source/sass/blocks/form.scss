@@ -83,18 +83,15 @@
 .form__main-data textarea:hover,
 .form__main-data input:focus,
 .form__main-data textarea:focus {
-  border: 1px solid black;
+  opacity: 0.9;
 }
 
-.form__main-data input:hover,
-.form__main-data input:focus {
-  max-height: 50px;
+.form__main-data input:active,
+.form__main-data textarea:active {
+  opacity: 1;
 }
 
-.form__main-data textarea:hover,
-.form__main-data textarea:focus {
-  max-height: 158px;
-}
+
 
 .form__main-data input::placeholder,
 .form__main-data textarea::placeholder {
@@ -158,7 +155,7 @@
   background-repeat: no-repeat;
 }
 
-.form__main-checkbox:checked + .form__main-checkbox-text {
+.form__main-checkbox:checked+.form__main-checkbox-text {
   background-image: url("../img/checkbox-checked.svg");
   background-repeat: no-repeat;
 }

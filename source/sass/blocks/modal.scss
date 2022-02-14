@@ -123,6 +123,7 @@
   border: none;
   background-color: inherit;
   cursor: pointer;
+  background-color: transparent;
 }
 
 .modal__checkbox-label {
@@ -154,7 +155,7 @@
   background-repeat: no-repeat;
 }
 
-.modal__checkbox:checked + .modal__checkbox-text {
+.modal__checkbox:checked+.modal__checkbox-text {
   background-image: url("../img/checkbox-checked.svg");
   background-repeat: no-repeat;
 }
@@ -172,20 +173,11 @@
 .modal textarea:hover,
 .modal input:focus,
 .modal textarea:focus {
-  border: 1px solid $black;
-}
-
-.modal input:hover,
-.modal input:focus {
-  max-height: 50px;
-}
-
-.modal textarea:hover,
-.modal textarea:focus {
-  max-height: 142px;
+  opacity: 0.9;
 }
 
 @media (max-width: $max-tablet-width) {
+
   .modal__inner,
   .modal-success__inner {
     width: 100%;
