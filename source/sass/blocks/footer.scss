@@ -139,6 +139,7 @@
 
 .map__item a {
   color: $light-black;
+  transition: opacity, 0.3s ease;
 }
 
 .map__item a,
@@ -161,6 +162,7 @@
 
 .contacts__link {
   max-width: 175px;
+  transition: opacity, 0.3s ease;
 }
 
 .map__item a:hover,

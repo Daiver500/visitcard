@@ -72,6 +72,8 @@
   padding: 39px 42px 64px 44px;
   background-color: $white;
   min-height: 300px;
+  transition: background-color, color, 0.3s ease;
+  cursor: pointer;
 }
 
 .advantages__item:hover,

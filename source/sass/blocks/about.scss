@@ -48,7 +48,7 @@
   display: none;
 }
 
-.about__information a {
+.about__button {
   text-transform: uppercase;
   padding: 14px 52px;
   font-family: "Roboto Condensed", "Arial", sans-serif;
@@ -60,10 +60,12 @@
   background-color: inherit;
   border-radius: 10px;
   cursor: pointer;
+  transition: background-color, color, 0.3s ease;
+  color: $black;
 }
 
-.about__information a:hover,
-.about__information a:focus {
+.about__button:hover,
+.about__button:focus {
   background-color: $light-orange;
   color: $white;
 }
@@ -75,6 +77,16 @@
 
 .about__image-wrapper {
   align-self: center;
+}
+
+.about__link {
+  cursor: pointer;
+  transition: color, 0.3s ease;
+}
+
+.about__link:hover,
+.about__link:focus {
+  color: $light-orange;
 }
 
 @media (max-width: $max-tablet-width) {

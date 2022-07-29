@@ -100,7 +100,7 @@
   line-height: 21px;
 }
 
-.form__main-data button {
+.form__main-button {
   font-family: "Roboto Condensed", "Arial", sans-serif;
   font-weight: 700;
   font-size: 14px;
@@ -112,10 +112,11 @@
   border-radius: 10px;
   padding: 14px 87px;
   cursor: pointer;
+  transition: 0.3s ease;
 }
 
-.form__main-data button:hover,
-.form__main-data button:focus {
+.form__main-button:hover,
+.form__main-button:focus {
   background-color: $white;
   color: $orange;
 }
@@ -139,6 +140,11 @@
   left: 26px;
 }
 
+.form__main-checkbox-text:hover,
+.form__main-checkbox-text:focus {
+  opacity: 0.5;
+}
+
 .form__main-checkbox {
   position: absolute;
   appearance: none;
@@ -153,6 +159,7 @@
   top: 9px;
   background-image: url("../img/checkbox.svg");
   background-repeat: no-repeat;
+  transition: 0.3 ease;
 }
 
 .form__main-checkbox:checked+.form__main-checkbox-text {

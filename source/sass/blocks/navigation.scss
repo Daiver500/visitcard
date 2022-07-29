@@ -64,6 +64,8 @@
   font-size: 16px;
   line-height: 18px;
   position: relative;
+  transition: color, 0.3s ease;
+  color: $white;
 }
 
 .navigation__link-mail {
@@ -97,6 +99,7 @@
   text-align: center;
   min-width: 180px;
   letter-spacing: 1px;
+  transition: opacity, color, 0.3s ease;
 }
 
 .navigation__button:hover,
